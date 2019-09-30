@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER Ivo Jimenez <ivo.jimenez@gmail.com>
+MAINTAINER Pete Wilcox <petercwilcox@gmail.com>
 
 RUN apt-get -yq update && \
     apt-get install -qy --fix-missing \
