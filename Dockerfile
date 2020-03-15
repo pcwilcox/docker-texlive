@@ -13,6 +13,7 @@ RUN apt-get -yq update && \
         python-pygments \
         texlive-xetex \
         texlive-pictures \
+        texlive-publishers \
         texlive-bibtex-extra make && \
     apt-get -yq autoremove && \
     apt-get clean -y && \
